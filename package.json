@@ -1,0 +1,18 @@
+{
+  "name": "qa-user-registration-tests",
+  "version": "1.0.0",
+  "description": "Testes automatizados com Playwright em um formulário web",
+  "main": "index.js",
+ "scripts": {
+  "test": "npx playwright test --reporter=html",
+  "test:report": "npx playwright show-report"
+}
+,
+  "keywords": [],
+  "author": "Renato Moura",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "playwright": "^1.43.1"
+  }
+}
