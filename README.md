@@ -14,6 +14,13 @@ Este projeto realiza testes automatizados no formulário de cadastro do site htt
 
 1. Instale as dependências:
 ```bash
+
+
 npm install
 npm test
 npm run test:report
+
+* dependencias 
+npm init -y
+npm install -D playwright
+npx playwright install
